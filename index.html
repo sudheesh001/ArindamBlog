@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -18,7 +19,17 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <div class="container">
     <div class="mainContent">
       <div class="logoHeader">
@@ -36,10 +47,10 @@
 <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
-    <h2 id="myModalLabel">Contact Forms Suck</h2>
+    <h2 id="myModalLabel">Contact Me</h2>
   </div>
   <div class="modal-body">
-    <p>Contacting me is pretty easy. You can find me on <a href="http://twitter.com/" target="_blank">twitter</a>, or just shoot me an email at <a href="#">email</a></p>
+    <p>Contacting me is pretty easy. You can find me on <a href="https://www.facebook.com/arindam.roy.5872/" target="_blank">Facebook</a>, or just shoot me an email at <a href="arindamroy.roy619@gmail.com">arindamroy.roy619@gmail.com</a> or call me at +91 95 77 128621</p>
   </div>
   <div class="modal-footer">
     <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -50,8 +61,8 @@
 <div id="aboutModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-body">
       <article class="aboutMe">
-          <img src="assets/img/headShot.png">
-          <p>My name is <strong>Arindam Roy.</strong> bLA BLA BLA here.</p>
+          <img src="assets/img/me.jpg">
+          <p>My name is <strong>Arindam Roy.</strong></p>
 
           <p>I engineer and I write.</p>
         </article>
@@ -94,6 +105,13 @@
             I stay humble, calm and relaxed. But my heart pounds every time he runs the brush on the canvas.
             <em>Will I remain, will I cease?</em>
           </p>
+          <!-- Facebook Like Logo -->
+         <iframe
+    src="https://www.facebook.com/plugins/like.php?href=http://sudheesh001.github.io/ArindamBlog/?ref=ts&fref=ts"
+    scrolling="no" frameborder="0"
+    style="border:none; width:450px; height:80px">
+         </iframe>
+         <!-- Place this tag where you want the +1 button to render. -->
         </article>
       </div>
     </div>
